@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+    
+}
+
+#contenedor_botones{
+    text-align: center;
+}
+
+#ON_button{
+    background-color: green;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#OFF_button{
+    background-color: red;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#figure_1{
+    text-align:center;
+
+}
+
+#Iot{
+    max-width: 100%;
+    height: auto;
+}

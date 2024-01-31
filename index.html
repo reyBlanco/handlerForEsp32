@@ -5,11 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ESP32 cliente</title>
     <link rel="shortcut icon" href="./assets/esp32.jpg" type="image/png">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <h1>APAGAR Y/O ENCENDER UN FOCO CON EL ESP32</h1>
-    <input type="button" value="ON" id="ON_button" style="height: 50px; width: 50px"><br>
-    <input type="button" value="OFF" id="OFF_button" style="height: 50px; width: 50px"><br>
+    <div id="contenedor_botones">
+        <input type="button" value="ON" id="ON_button" style="height: 50px; width: 80px"><br>
+        <input type="button" value="OFF" id="OFF_button" style="height: 50px; width: 80px"><br>
+    </div>
+    
+    <hr>
+    <figure id="figure_1">
+        <img src="./assets/Iot.jpg" alt="IoT" width="500px" id="Iot">
+    </figure>
     <hr>
     <h2>respuesta del esp32</h2>
     <div id="contenedor"></div>
