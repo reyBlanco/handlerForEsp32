@@ -5,7 +5,7 @@ const $contenedorBotones=d.querySelector("#contenedor_botones");
 const $ON_button=$contenedorBotones.querySelector("#ON_button");
 const $OFF_button=$contenedorBotones.querySelector("#OFF_button");
 const $contenedor_respuesta=d.querySelector("#contenedor_respuesta");
-const url="wss://192.168.100.16:3000";
+const url="wss://elemental-yellow-pyroraptor.glitch.me/";
 
 const ws=new WebSocket(url);
 
