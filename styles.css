@@ -3,6 +3,10 @@ body{
     color: white;
     
 }
+h1{
+    text-align: center;
+    
+}
 
 #contenedor_botones{
     text-align: center;
