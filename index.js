@@ -1,3 +1,5 @@
+const { json } = require("body-parser");
+
 const c=console.log;
 const err=console.error;
 const d=document;
@@ -22,4 +24,8 @@ ws.addEventListener("close",(e)=>{
     alert("se ha cerrado la conexion");
 });
 
+ws.addEventListener("message",msg=>{
+    let dataString=msg.data;
+    $contenedor_respuesta.innerHTML=dataString;
+});
 
